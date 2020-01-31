@@ -1,0 +1,9 @@
+id=permisiver
+name=Selinux Permissiver
+version=1.0
+versionCode=1
+date=01-02-2019
+android=5.1 +
+author=wahyu6070 @xda-developers
+description=Magisk selinux permissiver support all rom and device.
+minMagisk=1500
