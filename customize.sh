@@ -1,6 +1,6 @@
-#!/sbin/sh
-#set -e
-#
+
+
+
 # Script by wahyu6070 @xda-developers
 #
 
@@ -14,7 +14,7 @@
   PRODUCT=$(grep_prop ro.product.vendor.device /vendor/build.prop)
   ROM=$(grep_prop ro.build.display.id | cut -d'-' -f1)
   ASW=$(date)
-if [ ! -d /data/media/0/Android/wahyu6070 ]; then 
+if [ ! -d /data/media/0/Android/wahyu@6070 ]; then 
  mkdir -p /data/media/0/Android/wahyu6070
 fi;
 LOG=/data/media/0/Android/wahyu6070/wahyu6070.log
@@ -48,4 +48,5 @@ DIRKU=/data/media/0/Android/wahyu6070
 
   ui_print "         installing $NAME "
   ui_print " "
+  cp -rf $MODPATH/permisiver.sh /data/adb/service.d
   
