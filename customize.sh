@@ -49,4 +49,5 @@ DIRKU=/data/media/0/Android/wahyu6070
   ui_print "         installing $NAME "
   ui_print " "
   cp -rf $MODPATH/permissiver.sh /data/adb/service.d
+  chmod 777 /data/adb/service.d/permissiver.sh
   
